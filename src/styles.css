@@ -1,0 +1,64 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 200px 200px 10px;
+  gap: 10px;
+  background-color: #2196f3;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  border: 1px dotted blue;
+}
+
+.grid-container > div {
+  background-color: rgba(199, 194, 194, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.App {
+  margin-top: 4em;
+}
+
+.main-content {
+  padding-top: 100px;
+  font-family: sans-serif;
+  display: grid;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+/*
+.Form {
+  align-items: center;
+  align-content: center;
+}
+*/
+
+/*
+body {
+  height: 100vh;
+  margin: 0;
+}
+*/
+
+.box {
+  box-sizing: border-box;
+  display: grid;
+  width: 100vw;
+  align-content: center;
+}
+
+.submit-container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.opener {
+  text-align: center;
+}
+
+.form-field {
+  padding-bottom: 15px;
+}
